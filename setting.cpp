@@ -21,6 +21,7 @@ Gameset::Gameset(QWidget *parent) : QWidget(parent) {
             emit this->back();
         });
     });
+
     MyPushButton *closeVoice_btn = new MyPushButton(":/photo/closeVoice.jpg");
     closeVoice_btn->setParent(this);
     closeVoice_btn->setFixedSize(180, 80);
@@ -36,6 +37,7 @@ Gameset::Gameset(QWidget *parent) : QWidget(parent) {
             emit this->back();
         });
     });
+
     MyPushButton *backgame_btn = new MyPushButton(":/photo/back.jpg");
     backgame_btn->setParent(this);
     backgame_btn->setFixedSize(180, 80);
